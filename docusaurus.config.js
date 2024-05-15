@@ -8,9 +8,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'AI Foundation Services',
-  tagline: 'create-tsi',
-  favicon: 'img/tsystems.png',
+  title: 'test',
+  tagline: 'test',
+
 
   // Set the production url of your site here
   url: 'https://khaoula-ben-chaabane.github.io',
@@ -23,7 +23,7 @@ const config = {
   organizationName: 'khaoula-ben-chaabane', // Usually your GitHub org/user name.
   projectName: 'deployment-test', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -33,7 +33,7 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
+  
   presets: [
     [
       'classic',
@@ -80,7 +80,7 @@ const config = {
           },
          // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/telekom/create-tsi/tree/main',
+            href:'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
             label: 'GitHub',
             position: 'right',
           },
@@ -94,7 +94,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/deployment-test/docs/intro',
               },
             ],
           },

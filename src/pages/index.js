@@ -19,7 +19,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg" 
-            to="/docs/Quick Start" style={{ height: '150px', width: "250px" }}> 
+            to="/deployment-test/docs/Quick Start" style={{ height: '150px', width: "250px" }}> 
             Quick Start Tutorial
             <div className="description-container" style={{wordWrap: 'break-word' }}>
               <p className="description-text" style={{ fontSize: '14px', fontWeight: 'normal' }}>
@@ -32,7 +32,7 @@ function HomepageHeader() {
           <div style={{ marginLeft: '20px' }}></div>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/Guides/chatbot" style={{ height: '150px', width: "250px" }}>
+            to="/deployment-test/docs/Intro" style={{ height: '150px', width: "250px" }}>
             Examples
           <div className="description-container" style={{wordWrap: 'break-word' }}>
               <p className="description-text" style={{ fontSize: '14px', fontWeight: 'normal' }}>
