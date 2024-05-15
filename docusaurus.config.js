@@ -16,6 +16,7 @@ const config = {
   url: 'https://khaoula-ben-chaabane.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
+  trailingSlash: false,
   baseUrl: '/deployment-test/',
 
   // GitHub pages deployment config.
